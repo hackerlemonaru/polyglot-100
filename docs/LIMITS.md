@@ -39,6 +39,24 @@ python3 tools/ballast.py --check               # verify checksums
 python3 tools/ballast.py --clean               # delete it locally
 ```
 
+### What it actually cost
+
+Measured while building this repository:
+
+* Generating all 900 MiB: **5 seconds** (SHAKE-256 is fast).
+* Pushing it, in three batches: **about 83 seconds** total.
+* Git emits `GH001: Large files detected` warnings for every part, because each
+  90 MiB file is over the 50 MiB *recommended* maximum. The push still succeeds —
+  the hard block is at 100 MiB — but the warnings are permanent and visible.
+* The `.git` directory is ~902 MiB, because the payload is incompressible by
+  design. There is no pack-file saving to be had.
+* The language statistics were **completely unaffected**: still 100 languages at
+  exactly 1.0000% each, before and after.
+
+CI never downloads it. Every `actions/checkout` step uses
+`filter: blob:none` plus a sparse checkout of `langs`, `tools` and `docs`, so the
+workflows stay fast despite the repository size.
+
 ## Do not download it if you do not want it
 
 ```bash

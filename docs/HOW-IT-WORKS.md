@@ -23,7 +23,78 @@ This repository uses **4096 bytes per language**:
 Any equal budget works. `--target-bytes 8192` doubles the archive and the bar
 stays perfectly flat.
 
-## Three things that will quietly break it
+## What actually broke, and how it was fixed
+
+The first push of this repository reported **96 languages, not 100**. Nothing in
+the offline checks failed: every file was 4096 bytes and every pin looked right.
+The bar was wrong anyway. These are the four causes, found by diffing the
+manifest against `GET /repos/.../languages`.
+
+### A. A space in the attribute value silently deletes the language
+
+This is the big one, and it is a **git** limitation, not a Linguist one. Git's
+attribute parser splits on whitespace, and it does not accept quoted values:
+
+```console
+$ git check-attr linguist-language -- langs/033-standard-ml/polyglot.sml
+langs/033-standard-ml/polyglot.sml: linguist-language: Standard
+```
+
+`linguist-language=Standard ML` sets the language to `Standard`. Writing
+`linguist-language="Standard ML"` is worse — git rejects the line outright with
+`ML" is not a valid attribute name`. Backslash escaping truncates at the slash.
+
+An unknown language name does not fall back to extension detection. The file
+contributes **zero bytes** and disappears from the bar. Three languages vanished
+this way: Common Lisp, Standard ML and Protocol Buffer.
+
+The fix is a space-free alias, taken from the `aliases:` list in `languages.yml`:
+
+| Display name | Attribute value |
+| --- | --- |
+| Common Lisp | `lisp` |
+| Emacs Lisp | `elisp` |
+| Standard ML | `sml` |
+| Wolfram Language | `wolfram` |
+| Protocol Buffer | `protobuf` |
+
+Wolfram Language was the one that *appeared* to work, because `wolfram` happens
+to be a real alias — so the truncated value `Wolfram` resolved correctly by luck.
+
+`tools/build.py` now refuses to emit any attribute value containing whitespace,
+and `tools/verify.py` resolves all hundred pins through `git check-attr --stdin`
+before you are allowed to push.
+
+### B. `group:` collapses dialects into one name
+
+`Fortran Free Form` declares `group: Fortran`. Linguist reports grouped languages
+under the **group** name, so pinning the dialect is pointless — the bar said
+`Fortran` no matter what. The entry is simply named Fortran now, and the code is
+still free-form Fortran 2008.
+
+### C. A contested extension can be dropped even when pinned
+
+`.mod` is claimed by **five** languages: AMPL, Linux Kernel Module, Modula-2,
+NMODL and XML. Two of them are `type: data`. Even with all of
+
+```gitattributes
+langs/066-modula-2/polyglot.mod linguist-language=Modula-2 linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
+```
+
+GitHub still dropped the file. The exhibit is now `polyglot.m2` with the same
+explicit pin, which is all Linguist needs to classify and highlight it as
+Modula-2. The lesson: when an extension is heavily contested, an explicit pin is
+not always enough — pick an extension nobody else wants.
+
+### D. `data` and `prose` types need forcing
+
+SQL, GraphQL, XML, YAML, TOML and Protocol Buffer are all `type: data`, which is
+not detectable by default. Without `linguist-detectable` they contribute nothing.
+
+After all four fixes: **100 languages, 409,600 bytes, every share exactly
+1.0000%.**
+
+## Three more things that will quietly break it
 
 ### 1. Heuristics on ambiguous extensions
 

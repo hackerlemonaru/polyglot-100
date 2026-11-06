@@ -137,8 +137,24 @@ tools/**    -linguist-detectable
 ```
 
 Without that second half, this README alone would add a Markdown slice and the
-bar would no longer be flat. Details in
-**[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)**.
+bar would no longer be flat.
+
+### It did not work on the first try
+
+The first push reported **96 languages, not 100**, while every offline check
+passed. Four separate causes, all silent:
+
+| Cause | Effect |
+| --- | --- |
+| A space in `linguist-language=Standard ML` | git truncates the value to `Standard`; an unknown name makes the file count **zero** bytes |
+| `group: Fortran` in the registry | `Fortran Free Form` is always reported as `Fortran` |
+| `.mod` claimed by five languages | dropped even with an explicit pin, `detectable`, and `generated=false` |
+| `type: data` | SQL, YAML, TOML, XML, GraphQL and Protocol Buffer are not detectable by default |
+
+The full write-up, with the `git check-attr` output and the fixes, is in
+**[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)**. `tools/verify.py` now resolves
+every pin through git itself, so this class of bug fails before a push rather
+than after it.
 
 ## About the size of this repository
 
