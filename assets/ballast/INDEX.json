@@ -1,0 +1,62 @@
+{
+  "purpose": "deliberate, reproducible padding; not part of the exhibits",
+  "generator": "shake_256(f'{seed}/part-{i:02d}/chunk-{c:06d}') per 1 MiB",
+  "seed": "polyglot-100/ballast/v1",
+  "chunk_bytes": 1048576,
+  "parts": [
+    {
+      "file": "part-00.bin",
+      "bytes": 94371840,
+      "sha256": "1ccdde331ae72701be5842499350cb6bc69b7e7bf994720d2b4ac6cacfee52e4"
+    },
+    {
+      "file": "part-01.bin",
+      "bytes": 94371840,
+      "sha256": "fc1d911c23ccb5c181bd8ead8bac013a18b478641ab61ee77f40cd37836f7db0"
+    },
+    {
+      "file": "part-02.bin",
+      "bytes": 94371840,
+      "sha256": "dd3a521e983668c0a446720168d11e62627a6ff9e0978c3c31eb83d79ec546de"
+    },
+    {
+      "file": "part-03.bin",
+      "bytes": 94371840,
+      "sha256": "f57d846d9c8bd78ff1888cf847dfee3dc05f9a775f91a56d58a31b8cbbb1e622"
+    },
+    {
+      "file": "part-04.bin",
+      "bytes": 94371840,
+      "sha256": "5793d3c2df942dc19a02d558427a00c73c503014863319a1775af42c7af64510"
+    },
+    {
+      "file": "part-05.bin",
+      "bytes": 94371840,
+      "sha256": "b1af4a90e4f0ebb9ad5f374def0defa1521d4a52b741175fcc68c2940091e560"
+    },
+    {
+      "file": "part-06.bin",
+      "bytes": 94371840,
+      "sha256": "6d688a21278c97603a31dcb5ec88af94083d41b11bfa5b4698474a54a788ca97"
+    },
+    {
+      "file": "part-07.bin",
+      "bytes": 94371840,
+      "sha256": "128ce1a1143303d959524a8e426606c8f0b1b7643974e56d4b9599d9c3390f2d"
+    },
+    {
+      "file": "part-08.bin",
+      "bytes": 94371840,
+      "sha256": "90ab692fd0f0142dc8d0c3894a417efb9b564b53490701064d35c2044bde058e"
+    },
+    {
+      "file": "part-09.bin",
+      "bytes": 94371840,
+      "sha256": "b377673f02d708519faa10dd2d9c66c307907b92cc23c7a1fcf5448aff5cc551"
+    }
+  ],
+  "total_bytes": 943718400,
+  "total_mib": 900.0,
+  "counted_by_linguist": false,
+  "regenerate": "python3 tools/ballast.py --parts 10 --mib 90"
+}
