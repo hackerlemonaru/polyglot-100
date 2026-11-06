@@ -64,6 +64,29 @@ FILLER = (
 )
 
 
+def attr_token(lang: dict) -> str:
+    """
+    The value to put after `linguist-language=`.
+
+    Git's attribute parser splits on whitespace and does NOT accept quoted
+    values, so `linguist-language=Standard ML` silently sets the language to
+    "Standard". An unknown name makes the file contribute ZERO bytes, which
+    quietly removes it from the bar. Any display name containing a space must
+    therefore declare a space-free Linguist alias in `linguist`.
+
+    Also note `group:` in languages.yml: "Fortran Free Form" is always reported
+    as "Fortran", so there is no point pinning the dialect.
+    """
+    token = lang.get("linguist") or lang["name"]
+    if any(c.isspace() for c in token):
+        raise ValueError(
+            f"{lang['name']}: linguist-language={token!r} contains whitespace. "
+            "Git cannot parse it. Set linguist= to a space-free alias from "
+            "languages.yml (e.g. sml, lisp, elisp, wolfram, protobuf)."
+        )
+    return token
+
+
 def slugify(name: str) -> str:
     s = name.lower()
     s = s.replace("#", "sharp").replace("+", "plus")
@@ -213,13 +236,20 @@ def main() -> int:
         rel = f"langs/{d.name}/{fname}"
         body = pad(lang["code"], lang["comment"], target, fact_sheet(lang, i, fam))
         (ROOT / rel).write_text(body, encoding="utf-8", newline="")
-        attr.append(f"{rel} linguist-language={lang['name']} linguist-detectable")
+        # linguist-generated=false is explicit: some extensions (.mod among
+        # them) can trip Linguist's generated-file heuristics, and a generated
+        # file is dropped from the statistics entirely.
+        attr.append(
+            f"{rel} linguist-language={attr_token(lang)} linguist-detectable "
+            "linguist-generated=false -linguist-vendored -linguist-documentation"
+        )
         manifest["languages"].append(
             {
                 "index": i,
                 "name": lang["name"],
                 "family": fam,
                 "path": rel,
+                "linguist": attr_token(lang),
                 "bytes": target,
                 "year": lang["year"],
                 "author": lang["author"],

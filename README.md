@@ -63,7 +63,7 @@ executing instructions, the entry encodes the same payload instead of printing i
 | **Functional** | Haskell, OCaml, Standard ML, Elm, PureScript, Erlang, Elixir, Gleam, Racket, Scheme | 10.00% |
 | **Lisp & Dynamic** | Common Lisp, Emacs Lisp, Fennel, Janet, Io, Wren, Red, Smalltalk, Tcl, PowerShell | 10.00% |
 | **Data & Scientific** | SQL, PLpgSQL, PLSQL, R, Julia, MATLAB, Wolfram Language, SAS, Stan, GraphQL | 10.00% |
-| **Enterprise & Legacy** | COBOL, Fortran Free Form, Pascal, Ada, ABAP, Modula-2, RPGLE, Eiffel, Prolog, Batchfile | 10.00% |
+| **Enterprise & Legacy** | COBOL, Fortran, Pascal, Ada, ABAP, Modula-2, RPGLE, Eiffel, Prolog, Batchfile | 10.00% |
 | **Markup & Style** | HTML, CSS, SCSS, Less, Sass, Vue, Svelte, XML, XSLT, TeX | 10.00% |
 | **Infra & Config** | Makefile, CMake, Dockerfile, Nix, HCL, Jsonnet, YAML, TOML, Dhall, Protocol Buffer | 10.00% |
 | **Frontier & Esoteric** | Solidity, Move, Cairo, WebAssembly, LLVM, GLSL, Verilog, VHDL, Brainfuck, LOLCODE | 10.00% |

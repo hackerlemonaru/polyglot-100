@@ -4,7 +4,7 @@ FAMILY = "Lisp & Dynamic"
 
 LANGS = [
     dict(
-        name="Common Lisp", ext=".lisp", comment="semi", year=1984,
+        name="Common Lisp", linguist="lisp", ext=".lisp", comment="semi", year=1984,
         author="ANSI committee (Maclisp / Interlisp lineage)",
         paradigm="Multi-paradigm Lisp with a macro system",
         note="The condition system can repair an error and resume where it happened.",
@@ -32,7 +32,7 @@ LANGS = [
 ''',
     ),
     dict(
-        name="Emacs Lisp", ext=".el", comment="semi", year=1985, author="Richard Stallman",
+        name="Emacs Lisp", linguist="elisp", ext=".el", comment="semi", year=1985, author="Richard Stallman",
         paradigm="Lisp dialect for editor extension",
         note="Most of GNU Emacs is written in this language, live-editable while it runs.",
         code=r''';;; polyglot.el --- entry 042 of polyglot-100  -*- lexical-binding: t; -*-

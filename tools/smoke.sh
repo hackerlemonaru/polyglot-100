@@ -72,7 +72,7 @@ if have c++; then
 else skip=$((skip+1)); fi
 
 if have gfortran; then
-  if gfortran -O2 -o "$tmp/f90" langs/062-fortran-free-form/polyglot.f90 2>"$tmp/f.log"; then
+  if gfortran -O2 -o "$tmp/f90" langs/062-fortran/polyglot.f90 2>"$tmp/f.log"; then
     check Fortran "$tmp/f90"
   else printf '  FAIL  %-14s would not compile\n' Fortran; fail=$((fail+1)); fi
 else skip=$((skip+1)); fi

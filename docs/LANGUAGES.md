@@ -71,7 +71,7 @@ instructions encode the same payload instead.
 | 59 | [Stan](langs/059-stan/polyglot.stan) | Data & Scientific | 2012 | Andrew Gelman and the Stan development team |
 | 60 | [GraphQL](langs/060-graphql/polyglot.graphql) | Data & Scientific | 2015 | Lee Byron / Facebook |
 | 61 | [COBOL](langs/061-cobol/polyglot.cob) | Enterprise & Legacy | 1959 | Grace Hopper and the CODASYL committee |
-| 62 | [Fortran Free Form](langs/062-fortran-free-form/polyglot.f90) | Enterprise & Legacy | 1957 | John Backus / IBM |
+| 62 | [Fortran](langs/062-fortran/polyglot.f90) | Enterprise & Legacy | 1957 | John Backus / IBM |
 | 63 | [Pascal](langs/063-pascal/polyglot.pas) | Enterprise & Legacy | 1970 | Niklaus Wirth |
 | 64 | [Ada](langs/064-ada/polyglot.adb) | Enterprise & Legacy | 1980 | Jean Ichbiah / CII Honeywell Bull, for the US DoD |
 | 65 | [ABAP](langs/065-abap/polyglot.abap) | Enterprise & Legacy | 1983 | SAP SE |
@@ -121,7 +121,7 @@ instructions encode the same payload instead.
 | **Functional** | Haskell, OCaml, Standard ML, Elm, PureScript, Erlang, Elixir, Gleam, Racket, Scheme | 10.00% |
 | **Lisp & Dynamic** | Common Lisp, Emacs Lisp, Fennel, Janet, Io, Wren, Red, Smalltalk, Tcl, PowerShell | 10.00% |
 | **Data & Scientific** | SQL, PLpgSQL, PLSQL, R, Julia, MATLAB, Wolfram Language, SAS, Stan, GraphQL | 10.00% |
-| **Enterprise & Legacy** | COBOL, Fortran Free Form, Pascal, Ada, ABAP, Modula-2, RPGLE, Eiffel, Prolog, Batchfile | 10.00% |
+| **Enterprise & Legacy** | COBOL, Fortran, Pascal, Ada, ABAP, Modula-2, RPGLE, Eiffel, Prolog, Batchfile | 10.00% |
 | **Markup & Style** | HTML, CSS, SCSS, Less, Sass, Vue, Svelte, XML, XSLT, TeX | 10.00% |
 | **Infra & Config** | Makefile, CMake, Dockerfile, Nix, HCL, Jsonnet, YAML, TOML, Dhall, Protocol Buffer | 10.00% |
 | **Frontier & Esoteric** | Solidity, Move, Cairo, WebAssembly, LLVM, GLSL, Verilog, VHDL, Brainfuck, LOLCODE | 10.00% |

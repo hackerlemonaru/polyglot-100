@@ -54,7 +54,7 @@ let () =
 ''',
     ),
     dict(
-        name="Standard ML", ext=".sml", comment="paren", year=1983, author="Robin Milner et al.",
+        name="Standard ML", linguist="sml", ext=".sml", comment="paren", year=1983, author="Robin Milner et al.",
         paradigm="Functional, statically typed, module system",
         note="The language whose formal definition famously specified its own semantics.",
         code=r'''(* polyglot-100 :: entry 033 :: Standard ML *)

@@ -43,10 +43,10 @@ LANGS = [
 ''',
     ),
     dict(
-        name="Fortran Free Form", ext=".f90", comment="bang", year=1957,
+        name="Fortran", ext=".f90", comment="bang", year=1957,
         author="John Backus / IBM",
         paradigm="Compiled, imperative, array-oriented",
-        note="The first widely used high-level language; still dominant in scientific computing.",
+        note="The first widely used high-level language. This entry is free-form Fortran 2008; Linguist groups every Fortran dialect under one name.",
         code=r'''! polyglot-100 :: entry 062 :: Fortran (free form, 2008)
 program polyglot
     implicit none

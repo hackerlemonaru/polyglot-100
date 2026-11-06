@@ -341,7 +341,7 @@ in  { greeting = "Hello from Dhall!"
 ''',
     ),
     dict(
-        name="Protocol Buffer", ext=".proto", comment="slash", year=2008,
+        name="Protocol Buffer", linguist="protobuf", ext=".proto", comment="slash", year=2008,
         author="Kenton Varda, Sanjay Ghemawat / Google",
         paradigm="Interface definition, binary serialisation",
         note="Field numbers, not field names, are what actually travel over the wire.",

@@ -203,7 +203,7 @@ end
 ''',
     ),
     dict(
-        name="Wolfram Language", ext=".wl", comment="paren", year=1988,
+        name="Wolfram Language", linguist="wolfram", ext=".wl", comment="paren", year=1988,
         author="Stephen Wolfram",
         paradigm="Symbolic, term-rewriting, multi-paradigm",
         note="Powers Mathematica; symbolic expressions are the universal data structure.",

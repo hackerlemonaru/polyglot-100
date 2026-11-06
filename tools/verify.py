@@ -113,6 +113,64 @@ def local_checks() -> int:
         print(f"  ok    {total:,} counted bytes, {total // 100:,} per language")
         print(f"  ok    predicted share per language: {100 / 100:.2f}%")
 
+    problems += git_attr_checks(entries)
+
+    return problems
+
+
+def git_attr_checks(entries: list[dict]) -> int:
+    """
+    Ask git itself what the attributes resolve to.
+
+    This is the check that catches the classic failure: a language name with a
+    space in it. Git splits attribute values on whitespace and rejects quotes,
+    so `linguist-language=Standard ML` becomes the unknown language "Standard",
+    and Linguist then drops the file from the statistics altogether.
+    """
+    import subprocess
+
+    if not (ROOT / ".git").exists():
+        print("  skip  git attribute resolution (not a git checkout)")
+        return 0
+    paths = [e["path"] for e in entries]
+    try:
+        out = subprocess.run(
+            ["git", "check-attr", "--stdin", "linguist-language",
+             "linguist-detectable", "linguist-generated"],
+            cwd=ROOT, input="\n".join(paths) + "\n",
+            capture_output=True, text=True, timeout=60,
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        print(f"  skip  git attribute resolution ({exc})")
+        return 0
+    if out.returncode != 0:
+        fail(f"git check-attr failed: {out.stderr.strip()}")
+        return 1
+
+    seen: dict[str, dict[str, str]] = {}
+    for line in out.stdout.splitlines():
+        try:
+            path, attr, value = line.rsplit(": ", 2)
+        except ValueError:
+            continue
+        seen.setdefault(path, {})[attr] = value
+
+    expected = {e["path"]: e.get("linguist", e["name"]) for e in entries}
+    problems = 0
+    for path, want in expected.items():
+        got = seen.get(path, {})
+        if got.get("linguist-language") != want:
+            fail(f"{path}: git resolves linguist-language="
+                 f"{got.get('linguist-language')!r}, expected {want!r}")
+            problems += 1
+        if got.get("linguist-detectable") != "set":
+            fail(f"{path}: linguist-detectable is not set")
+            problems += 1
+        if got.get("linguist-generated") != "false":
+            fail(f"{path}: linguist-generated is not explicitly false")
+            problems += 1
+    if not problems:
+        print("  ok    git resolves all 100 pins to the intended language")
     return problems
 
 
