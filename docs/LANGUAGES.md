@@ -75,7 +75,7 @@ instructions encode the same payload instead.
 | 63 | [Pascal](langs/063-pascal/polyglot.pas) | Enterprise & Legacy | 1970 | Niklaus Wirth |
 | 64 | [Ada](langs/064-ada/polyglot.adb) | Enterprise & Legacy | 1980 | Jean Ichbiah / CII Honeywell Bull, for the US DoD |
 | 65 | [ABAP](langs/065-abap/polyglot.abap) | Enterprise & Legacy | 1983 | SAP SE |
-| 66 | [Modula-2](langs/066-modula-2/polyglot.mod) | Enterprise & Legacy | 1978 | Niklaus Wirth |
+| 66 | [Modula-2](langs/066-modula-2/polyglot.m2) | Enterprise & Legacy | 1978 | Niklaus Wirth |
 | 67 | [RPGLE](langs/067-rpgle/polyglot.rpgle) | Enterprise & Legacy | 2001 | IBM (RPG lineage from 1959) |
 | 68 | [Eiffel](langs/068-eiffel/polyglot.e) | Enterprise & Legacy | 1986 | Bertrand Meyer |
 | 69 | [Prolog](langs/069-prolog/polyglot.pro) | Enterprise & Legacy | 1972 | Alain Colmerauer, Philippe Roussel |

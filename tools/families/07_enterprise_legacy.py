@@ -205,9 +205,9 @@ START-OF-SELECTION.
 ''',
     ),
     dict(
-        name="Modula-2", ext=".mod", comment="paren", year=1978, author="Niklaus Wirth",
+        name="Modula-2", ext=".m2", comment="paren", year=1978, author="Niklaus Wirth",
         paradigm="Structured, modular, imperative",
-        note="Introduced the module as a compilation unit; the direct ancestor of Oberon.",
+        note="Introduced the module as a compilation unit; the direct ancestor of Oberon. Filed as .m2 rather than .mod, which five languages claim - see docs/HOW-IT-WORKS.md.",
         code=r'''(* polyglot-100 :: entry 066 :: Modula-2 *)
 MODULE Polyglot;
 

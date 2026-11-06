@@ -92,7 +92,7 @@ langs/062-fortran/polyglot.f90 linguist-language=Fortran linguist-detectable lin
 langs/063-pascal/polyglot.pas linguist-language=Pascal linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
 langs/064-ada/polyglot.adb linguist-language=Ada linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
 langs/065-abap/polyglot.abap linguist-language=ABAP linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
-langs/066-modula-2/polyglot.mod linguist-language=Modula-2 linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
+langs/066-modula-2/polyglot.m2 linguist-language=Modula-2 linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
 langs/067-rpgle/polyglot.rpgle linguist-language=RPGLE linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
 langs/068-eiffel/polyglot.e linguist-language=Eiffel linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
 langs/069-prolog/polyglot.pro linguist-language=Prolog linguist-detectable linguist-generated=false -linguist-vendored -linguist-documentation
