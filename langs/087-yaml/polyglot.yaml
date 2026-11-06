@@ -1,0 +1,76 @@
+# polyglot-100 :: entry 087 :: YAML
+---
+archive: polyglot-100
+concept: 100 languages, identical byte counts, exactly one percent each
+entries: 100
+bytes_per_entry: &bytes 4096
+counted_bytes: 409600
+
+canonical_task:
+  greeting: "Hello from YAML!"
+  operations:
+    - id: sum
+      range: [1, 10]
+      result: &checksum 55
+    - id: fib
+      index: 10
+      result: *checksum
+  difference: 0
+
+self_entry:
+  index: 87
+  language: YAML
+  family: Infra & Config
+  first_appeared: 2001
+  bytes: *bytes
+  share_percent: 1.00
+
+families:
+  - { id: 1, name: Systems & Native, count: 10 }
+  - { id: 9, name: Infra & Config, count: 10 }
+...
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# YAML -- entry 087 of 100 in th

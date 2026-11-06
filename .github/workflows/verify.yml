@@ -1,0 +1,81 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  invariant:
+    name: byte-balance invariant
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out without the ballast
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Rebuild the exhibits
+        run: python3 tools/build.py --target-bytes 4096
+
+      - name: Verify offline invariants
+        run: python3 tools/verify.py
+
+      - name: Confirm the rebuild is byte-identical
+        run: |
+          if ! git diff --exit-code -- langs .gitattributes MANIFEST.json; then
+            echo "::error::langs/ is out of sync with tools/families/"
+            exit 1
+          fi
+
+  linguist:
+    name: GitHub language bar is flat
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Wait for Linguist, then assert 1.00% each
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if python3 tools/verify.py --remote "${{ github.repository }}"; then
+              exit 0
+            fi
+            echo "Linguist may still be running; retrying in 30s"
+            sleep 30
+          done
+          echo "::error::language bar is not flat"
+          exit 1
+
+  smoke:
+    name: run the exhibits
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+
+      - name: Install the toolchains that are easy to get
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends \
+            gfortran tcl r-base-core perl nodejs
+
+      - name: Smoke test
+        run: bash tools/smoke.sh

@@ -1,0 +1,1008 @@
+{
+  "concept": "100 languages, identical byte counts, exactly 1% each",
+  "target_bytes_per_language": 4096,
+  "counted_bytes_total": 409600,
+  "canonical_task": "greet; sum(1..10); fib(10) -- both results are 55",
+  "languages": [
+    {
+      "index": 1,
+      "name": "C",
+      "family": "Systems & Native",
+      "path": "langs/001-c/polyglot.c",
+      "bytes": 4096,
+      "year": 1972,
+      "author": "Dennis Ritchie",
+      "paradigm": "Procedural, imperative"
+    },
+    {
+      "index": 2,
+      "name": "C++",
+      "family": "Systems & Native",
+      "path": "langs/002-cplusplus/polyglot.cpp",
+      "bytes": 4096,
+      "year": 1985,
+      "author": "Bjarne Stroustrup",
+      "paradigm": "Multi-paradigm: procedural, generic, object-oriented"
+    },
+    {
+      "index": 3,
+      "name": "Rust",
+      "family": "Systems & Native",
+      "path": "langs/003-rust/polyglot.rs",
+      "bytes": 4096,
+      "year": 2010,
+      "author": "Graydon Hoare / Mozilla",
+      "paradigm": "Multi-paradigm with ownership and borrowing"
+    },
+    {
+      "index": 4,
+      "name": "Go",
+      "family": "Systems & Native",
+      "path": "langs/004-go/polyglot.go",
+      "bytes": 4096,
+      "year": 2009,
+      "author": "Robert Griesemer, Rob Pike, Ken Thompson",
+      "paradigm": "Concurrent, imperative, compiled"
+    },
+    {
+      "index": 5,
+      "name": "Zig",
+      "family": "Systems & Native",
+      "path": "langs/005-zig/polyglot.zig",
+      "bytes": 4096,
+      "year": 2016,
+      "author": "Andrew Kelley",
+      "paradigm": "Imperative, comptime metaprogramming"
+    },
+    {
+      "index": 6,
+      "name": "Nim",
+      "family": "Systems & Native",
+      "path": "langs/006-nim/polyglot.nim",
+      "bytes": 4096,
+      "year": 2008,
+      "author": "Andreas Rumpf",
+      "paradigm": "Compiled, statically typed, metaprogramming"
+    },
+    {
+      "index": 7,
+      "name": "D",
+      "family": "Systems & Native",
+      "path": "langs/007-d/polyglot.d",
+      "bytes": 4096,
+      "year": 2001,
+      "author": "Walter Bright, Andrei Alexandrescu",
+      "paradigm": "Multi-paradigm, systems"
+    },
+    {
+      "index": 8,
+      "name": "Odin",
+      "family": "Systems & Native",
+      "path": "langs/008-odin/polyglot.odin",
+      "bytes": 4096,
+      "year": 2016,
+      "author": "Ginger Bill",
+      "paradigm": "Imperative, data-oriented"
+    },
+    {
+      "index": 9,
+      "name": "Cuda",
+      "family": "Systems & Native",
+      "path": "langs/009-cuda/polyglot.cu",
+      "bytes": 4096,
+      "year": 2007,
+      "author": "NVIDIA",
+      "paradigm": "Data-parallel, heterogeneous"
+    },
+    {
+      "index": 10,
+      "name": "Assembly",
+      "family": "Systems & Native",
+      "path": "langs/010-assembly/polyglot.asm",
+      "bytes": 4096,
+      "year": 1949,
+      "author": "Kathleen Booth (early assemblers)",
+      "paradigm": "Imperative, machine-level"
+    },
+    {
+      "index": 11,
+      "name": "Java",
+      "family": "Application & Managed",
+      "path": "langs/011-java/polyglot.java",
+      "bytes": 4096,
+      "year": 1995,
+      "author": "James Gosling / Sun Microsystems",
+      "paradigm": "Object-oriented, class-based, statically typed"
+    },
+    {
+      "index": 12,
+      "name": "C#",
+      "family": "Application & Managed",
+      "path": "langs/012-csharp/polyglot.cs",
+      "bytes": 4096,
+      "year": 2000,
+      "author": "Anders Hejlsberg / Microsoft",
+      "paradigm": "Multi-paradigm, statically typed, component-oriented"
+    },
+    {
+      "index": 13,
+      "name": "Kotlin",
+      "family": "Application & Managed",
+      "path": "langs/013-kotlin/polyglot.kt",
+      "bytes": 4096,
+      "year": 2011,
+      "author": "JetBrains",
+      "paradigm": "Multi-paradigm, statically typed, null-safe"
+    },
+    {
+      "index": 14,
+      "name": "Scala",
+      "family": "Application & Managed",
+      "path": "langs/014-scala/polyglot.scala",
+      "bytes": 4096,
+      "year": 2004,
+      "author": "Martin Odersky",
+      "paradigm": "Functional + object-oriented on the JVM"
+    },
+    {
+      "index": 15,
+      "name": "Clojure",
+      "family": "Application & Managed",
+      "path": "langs/015-clojure/polyglot.clj",
+      "bytes": 4096,
+      "year": 2007,
+      "author": "Rich Hickey",
+      "paradigm": "Functional, Lisp dialect on the JVM"
+    },
+    {
+      "index": 16,
+      "name": "F#",
+      "family": "Application & Managed",
+      "path": "langs/016-fsharp/polyglot.fs",
+      "bytes": 4096,
+      "year": 2005,
+      "author": "Don Syme / Microsoft Research",
+      "paradigm": "Functional-first, statically typed, .NET"
+    },
+    {
+      "index": 17,
+      "name": "Vala",
+      "family": "Application & Managed",
+      "path": "langs/017-vala/polyglot.vala",
+      "bytes": 4096,
+      "year": 2006,
+      "author": "Jürg Billeter, Raffaele Sandrini",
+      "paradigm": "Object-oriented, compiled via C"
+    },
+    {
+      "index": 18,
+      "name": "Haxe",
+      "family": "Application & Managed",
+      "path": "langs/018-haxe/polyglot.hx",
+      "bytes": 4096,
+      "year": 2005,
+      "author": "Nicolas Cannasse",
+      "paradigm": "Multi-paradigm, cross-platform"
+    },
+    {
+      "index": 19,
+      "name": "Apex",
+      "family": "Application & Managed",
+      "path": "langs/019-apex/polyglot.cls",
+      "bytes": 4096,
+      "year": 2007,
+      "author": "Salesforce",
+      "paradigm": "Object-oriented, Java-like, multitenant"
+    },
+    {
+      "index": 20,
+      "name": "Swift",
+      "family": "Application & Managed",
+      "path": "langs/020-swift/polyglot.swift",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Chris Lattner / Apple",
+      "paradigm": "Protocol-oriented, multi-paradigm, compiled"
+    },
+    {
+      "index": 21,
+      "name": "JavaScript",
+      "family": "Web & Scripting",
+      "path": "langs/021-javascript/polyglot.js",
+      "bytes": 4096,
+      "year": 1995,
+      "author": "Brendan Eich",
+      "paradigm": "Multi-paradigm, prototype-based, dynamic"
+    },
+    {
+      "index": 22,
+      "name": "TypeScript",
+      "family": "Web & Scripting",
+      "path": "langs/022-typescript/polyglot.ts",
+      "bytes": 4096,
+      "year": 2012,
+      "author": "Anders Hejlsberg / Microsoft",
+      "paradigm": "Static superset of JavaScript"
+    },
+    {
+      "index": 23,
+      "name": "Python",
+      "family": "Web & Scripting",
+      "path": "langs/023-python/polyglot.py",
+      "bytes": 4096,
+      "year": 1991,
+      "author": "Guido van Rossum",
+      "paradigm": "Multi-paradigm, dynamic, interpreted"
+    },
+    {
+      "index": 24,
+      "name": "Ruby",
+      "family": "Web & Scripting",
+      "path": "langs/024-ruby/polyglot.rb",
+      "bytes": 4096,
+      "year": 1995,
+      "author": "Yukihiro Matsumoto",
+      "paradigm": "Object-oriented, dynamic, reflective"
+    },
+    {
+      "index": 25,
+      "name": "PHP",
+      "family": "Web & Scripting",
+      "path": "langs/025-php/polyglot.php",
+      "bytes": 4096,
+      "year": 1995,
+      "author": "Rasmus Lerdorf",
+      "paradigm": "Multi-paradigm, server-side scripting"
+    },
+    {
+      "index": 26,
+      "name": "Perl",
+      "family": "Web & Scripting",
+      "path": "langs/026-perl/polyglot.pl",
+      "bytes": 4096,
+      "year": 1987,
+      "author": "Larry Wall",
+      "paradigm": "Multi-paradigm, text-processing"
+    },
+    {
+      "index": 27,
+      "name": "Lua",
+      "family": "Web & Scripting",
+      "path": "langs/027-lua/polyglot.lua",
+      "bytes": 4096,
+      "year": 1993,
+      "author": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
+      "paradigm": "Multi-paradigm, lightweight, embeddable"
+    },
+    {
+      "index": 28,
+      "name": "Dart",
+      "family": "Web & Scripting",
+      "path": "langs/028-dart/polyglot.dart",
+      "bytes": 4096,
+      "year": 2011,
+      "author": "Lars Bak, Kasper Lund / Google",
+      "paradigm": "Object-oriented, client-optimised"
+    },
+    {
+      "index": 29,
+      "name": "CoffeeScript",
+      "family": "Web & Scripting",
+      "path": "langs/029-coffeescript/polyglot.coffee",
+      "bytes": 4096,
+      "year": 2009,
+      "author": "Jeremy Ashkenas",
+      "paradigm": "Compiles to JavaScript, dynamic"
+    },
+    {
+      "index": 30,
+      "name": "Shell",
+      "family": "Web & Scripting",
+      "path": "langs/030-shell/polyglot.sh",
+      "bytes": 4096,
+      "year": 1977,
+      "author": "Stephen Bourne",
+      "paradigm": "Command language, glue"
+    },
+    {
+      "index": 31,
+      "name": "Haskell",
+      "family": "Functional",
+      "path": "langs/031-haskell/polyglot.hs",
+      "bytes": 4096,
+      "year": 1990,
+      "author": "Committee (Miranda lineage; Simon Peyton Jones et al.)",
+      "paradigm": "Purely functional, lazy, statically typed"
+    },
+    {
+      "index": 32,
+      "name": "OCaml",
+      "family": "Functional",
+      "path": "langs/032-ocaml/polyglot.ml",
+      "bytes": 4096,
+      "year": 1996,
+      "author": "Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy",
+      "paradigm": "Functional, imperative, object-oriented; ML family"
+    },
+    {
+      "index": 33,
+      "name": "Standard ML",
+      "family": "Functional",
+      "path": "langs/033-standard-ml/polyglot.sml",
+      "bytes": 4096,
+      "year": 1983,
+      "author": "Robin Milner et al.",
+      "paradigm": "Functional, statically typed, module system"
+    },
+    {
+      "index": 34,
+      "name": "Elm",
+      "family": "Functional",
+      "path": "langs/034-elm/polyglot.elm",
+      "bytes": 4096,
+      "year": 2012,
+      "author": "Evan Czaplicki",
+      "paradigm": "Purely functional, reactive, compiled to JavaScript"
+    },
+    {
+      "index": 35,
+      "name": "PureScript",
+      "family": "Functional",
+      "path": "langs/035-purescript/polyglot.purs",
+      "bytes": 4096,
+      "year": 2013,
+      "author": "Phil Freeman",
+      "paradigm": "Purely functional, strongly typed, compiles to JavaScript"
+    },
+    {
+      "index": 36,
+      "name": "Erlang",
+      "family": "Functional",
+      "path": "langs/036-erlang/polyglot.erl",
+      "bytes": 4096,
+      "year": 1986,
+      "author": "Joe Armstrong, Robert Virding, Mike Williams",
+      "paradigm": "Concurrent, functional, fault-tolerant"
+    },
+    {
+      "index": 37,
+      "name": "Elixir",
+      "family": "Functional",
+      "path": "langs/037-elixir/polyglot.ex",
+      "bytes": 4096,
+      "year": 2011,
+      "author": "José Valim",
+      "paradigm": "Functional, concurrent, metaprogramming"
+    },
+    {
+      "index": 38,
+      "name": "Gleam",
+      "family": "Functional",
+      "path": "langs/038-gleam/polyglot.gleam",
+      "bytes": 4096,
+      "year": 2016,
+      "author": "Louis Pilfold",
+      "paradigm": "Statically typed functional on the BEAM"
+    },
+    {
+      "index": 39,
+      "name": "Racket",
+      "family": "Functional",
+      "path": "langs/039-racket/polyglot.rkt",
+      "bytes": 4096,
+      "year": 1995,
+      "author": "Matthew Flatt, Matthias Felleisen",
+      "paradigm": "Multi-paradigm Lisp, language-oriented"
+    },
+    {
+      "index": 40,
+      "name": "Scheme",
+      "family": "Functional",
+      "path": "langs/040-scheme/polyglot.scm",
+      "bytes": 4096,
+      "year": 1975,
+      "author": "Guy L. Steele Jr., Gerald Jay Sussman",
+      "paradigm": "Functional, minimalist Lisp"
+    },
+    {
+      "index": 41,
+      "name": "Common Lisp",
+      "family": "Lisp & Dynamic",
+      "path": "langs/041-common-lisp/polyglot.lisp",
+      "bytes": 4096,
+      "year": 1984,
+      "author": "ANSI committee (Maclisp / Interlisp lineage)",
+      "paradigm": "Multi-paradigm Lisp with a macro system"
+    },
+    {
+      "index": 42,
+      "name": "Emacs Lisp",
+      "family": "Lisp & Dynamic",
+      "path": "langs/042-emacs-lisp/polyglot.el",
+      "bytes": 4096,
+      "year": 1985,
+      "author": "Richard Stallman",
+      "paradigm": "Lisp dialect for editor extension"
+    },
+    {
+      "index": 43,
+      "name": "Fennel",
+      "family": "Lisp & Dynamic",
+      "path": "langs/043-fennel/polyglot.fnl",
+      "bytes": 4096,
+      "year": 2016,
+      "author": "Calvin Rose",
+      "paradigm": "Lisp that compiles to Lua"
+    },
+    {
+      "index": 44,
+      "name": "Janet",
+      "family": "Lisp & Dynamic",
+      "path": "langs/044-janet/polyglot.janet",
+      "bytes": 4096,
+      "year": 2017,
+      "author": "Calvin Rose",
+      "paradigm": "Lisp with a bytecode VM, embeddable"
+    },
+    {
+      "index": 45,
+      "name": "Io",
+      "family": "Lisp & Dynamic",
+      "path": "langs/045-io/polyglot.io",
+      "bytes": 4096,
+      "year": 2002,
+      "author": "Steve Dekorte",
+      "paradigm": "Prototype-based, purely object-oriented"
+    },
+    {
+      "index": 46,
+      "name": "Wren",
+      "family": "Lisp & Dynamic",
+      "path": "langs/046-wren/polyglot.wren",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Bob Nystrom",
+      "paradigm": "Class-based, dynamically typed, embeddable"
+    },
+    {
+      "index": 47,
+      "name": "Red",
+      "family": "Lisp & Dynamic",
+      "path": "langs/047-red/polyglot.red",
+      "bytes": 4096,
+      "year": 2011,
+      "author": "Nenad Rakocevic",
+      "paradigm": "Homoiconic, multi-paradigm, Rebol lineage"
+    },
+    {
+      "index": 48,
+      "name": "Smalltalk",
+      "family": "Lisp & Dynamic",
+      "path": "langs/048-smalltalk/polyglot.st",
+      "bytes": 4096,
+      "year": 1972,
+      "author": "Alan Kay, Dan Ingalls, Adele Goldberg",
+      "paradigm": "Purely object-oriented, message passing"
+    },
+    {
+      "index": 49,
+      "name": "Tcl",
+      "family": "Lisp & Dynamic",
+      "path": "langs/049-tcl/polyglot.tcl",
+      "bytes": 4096,
+      "year": 1988,
+      "author": "John Ousterhout",
+      "paradigm": "Procedural, everything is a string"
+    },
+    {
+      "index": 50,
+      "name": "PowerShell",
+      "family": "Lisp & Dynamic",
+      "path": "langs/050-powershell/polyglot.ps1",
+      "bytes": 4096,
+      "year": 2006,
+      "author": "Jeffrey Snover / Microsoft",
+      "paradigm": "Object-pipeline shell and scripting"
+    },
+    {
+      "index": 51,
+      "name": "SQL",
+      "family": "Data & Scientific",
+      "path": "langs/051-sql/polyglot.sql",
+      "bytes": 4096,
+      "year": 1974,
+      "author": "Donald Chamberlin, Raymond Boyce / IBM",
+      "paradigm": "Declarative, relational"
+    },
+    {
+      "index": 52,
+      "name": "PLpgSQL",
+      "family": "Data & Scientific",
+      "path": "langs/052-plpgsql/polyglot.pgsql",
+      "bytes": 4096,
+      "year": 1998,
+      "author": "Jan Wieck / PostgreSQL Global Development Group",
+      "paradigm": "Procedural extension to SQL"
+    },
+    {
+      "index": 53,
+      "name": "PLSQL",
+      "family": "Data & Scientific",
+      "path": "langs/053-plsql/polyglot.pls",
+      "bytes": 4096,
+      "year": 1992,
+      "author": "Oracle Corporation",
+      "paradigm": "Procedural extension to SQL, Ada-inspired"
+    },
+    {
+      "index": 54,
+      "name": "R",
+      "family": "Data & Scientific",
+      "path": "langs/054-r/polyglot.r",
+      "bytes": 4096,
+      "year": 1993,
+      "author": "Ross Ihaka, Robert Gentleman",
+      "paradigm": "Statistical, functional, vectorised"
+    },
+    {
+      "index": 55,
+      "name": "Julia",
+      "family": "Data & Scientific",
+      "path": "langs/055-julia/polyglot.jl",
+      "bytes": 4096,
+      "year": 2012,
+      "author": "Jeff Bezanson, Stefan Karpinski, Viral Shah, Alan Edelman",
+      "paradigm": "Multiple dispatch, JIT-compiled, numerical"
+    },
+    {
+      "index": 56,
+      "name": "MATLAB",
+      "family": "Data & Scientific",
+      "path": "langs/056-matlab/polyglot.matlab",
+      "bytes": 4096,
+      "year": 1984,
+      "author": "Cleve Moler",
+      "paradigm": "Array programming, numerical computing"
+    },
+    {
+      "index": 57,
+      "name": "Wolfram Language",
+      "family": "Data & Scientific",
+      "path": "langs/057-wolfram-language/polyglot.wl",
+      "bytes": 4096,
+      "year": 1988,
+      "author": "Stephen Wolfram",
+      "paradigm": "Symbolic, term-rewriting, multi-paradigm"
+    },
+    {
+      "index": 58,
+      "name": "SAS",
+      "family": "Data & Scientific",
+      "path": "langs/058-sas/polyglot.sas",
+      "bytes": 4096,
+      "year": 1976,
+      "author": "Anthony Barr, James Goodnight / SAS Institute",
+      "paradigm": "Procedural, statistical, data-step driven"
+    },
+    {
+      "index": 59,
+      "name": "Stan",
+      "family": "Data & Scientific",
+      "path": "langs/059-stan/polyglot.stan",
+      "bytes": 4096,
+      "year": 2012,
+      "author": "Andrew Gelman and the Stan development team",
+      "paradigm": "Probabilistic programming, declarative"
+    },
+    {
+      "index": 60,
+      "name": "GraphQL",
+      "family": "Data & Scientific",
+      "path": "langs/060-graphql/polyglot.graphql",
+      "bytes": 4096,
+      "year": 2015,
+      "author": "Lee Byron / Facebook",
+      "paradigm": "Declarative query language and type system"
+    },
+    {
+      "index": 61,
+      "name": "COBOL",
+      "family": "Enterprise & Legacy",
+      "path": "langs/061-cobol/polyglot.cob",
+      "bytes": 4096,
+      "year": 1959,
+      "author": "Grace Hopper and the CODASYL committee",
+      "paradigm": "Procedural, English-like, business-oriented"
+    },
+    {
+      "index": 62,
+      "name": "Fortran Free Form",
+      "family": "Enterprise & Legacy",
+      "path": "langs/062-fortran-free-form/polyglot.f90",
+      "bytes": 4096,
+      "year": 1957,
+      "author": "John Backus / IBM",
+      "paradigm": "Compiled, imperative, array-oriented"
+    },
+    {
+      "index": 63,
+      "name": "Pascal",
+      "family": "Enterprise & Legacy",
+      "path": "langs/063-pascal/polyglot.pas",
+      "bytes": 4096,
+      "year": 1970,
+      "author": "Niklaus Wirth",
+      "paradigm": "Structured, imperative, strongly typed"
+    },
+    {
+      "index": 64,
+      "name": "Ada",
+      "family": "Enterprise & Legacy",
+      "path": "langs/064-ada/polyglot.adb",
+      "bytes": 4096,
+      "year": 1980,
+      "author": "Jean Ichbiah / CII Honeywell Bull, for the US DoD",
+      "paradigm": "Statically typed, contract-based, safety-critical"
+    },
+    {
+      "index": 65,
+      "name": "ABAP",
+      "family": "Enterprise & Legacy",
+      "path": "langs/065-abap/polyglot.abap",
+      "bytes": 4096,
+      "year": 1983,
+      "author": "SAP SE",
+      "paradigm": "Object-oriented, database-centric, enterprise"
+    },
+    {
+      "index": 66,
+      "name": "Modula-2",
+      "family": "Enterprise & Legacy",
+      "path": "langs/066-modula-2/polyglot.mod",
+      "bytes": 4096,
+      "year": 1978,
+      "author": "Niklaus Wirth",
+      "paradigm": "Structured, modular, imperative"
+    },
+    {
+      "index": 67,
+      "name": "RPGLE",
+      "family": "Enterprise & Legacy",
+      "path": "langs/067-rpgle/polyglot.rpgle",
+      "bytes": 4096,
+      "year": 2001,
+      "author": "IBM (RPG lineage from 1959)",
+      "paradigm": "Business-oriented, totally free-form"
+    },
+    {
+      "index": 68,
+      "name": "Eiffel",
+      "family": "Enterprise & Legacy",
+      "path": "langs/068-eiffel/polyglot.e",
+      "bytes": 4096,
+      "year": 1986,
+      "author": "Bertrand Meyer",
+      "paradigm": "Object-oriented, Design by Contract"
+    },
+    {
+      "index": 69,
+      "name": "Prolog",
+      "family": "Enterprise & Legacy",
+      "path": "langs/069-prolog/polyglot.pro",
+      "bytes": 4096,
+      "year": 1972,
+      "author": "Alain Colmerauer, Philippe Roussel",
+      "paradigm": "Logic programming, relational"
+    },
+    {
+      "index": 70,
+      "name": "Batchfile",
+      "family": "Enterprise & Legacy",
+      "path": "langs/070-batchfile/polyglot.bat",
+      "bytes": 4096,
+      "year": 1981,
+      "author": "Microsoft / IBM (MS-DOS 1.0)",
+      "paradigm": "Command scripting"
+    },
+    {
+      "index": 71,
+      "name": "HTML",
+      "family": "Markup & Style",
+      "path": "langs/071-html/polyglot.html",
+      "bytes": 4096,
+      "year": 1993,
+      "author": "Tim Berners-Lee",
+      "paradigm": "Declarative markup"
+    },
+    {
+      "index": 72,
+      "name": "CSS",
+      "family": "Markup & Style",
+      "path": "langs/072-css/polyglot.css",
+      "bytes": 4096,
+      "year": 1996,
+      "author": "Håkon Wium Lie, Bert Bos",
+      "paradigm": "Declarative style sheet, cascade"
+    },
+    {
+      "index": 73,
+      "name": "SCSS",
+      "family": "Markup & Style",
+      "path": "langs/073-scss/polyglot.scss",
+      "bytes": 4096,
+      "year": 2006,
+      "author": "Hampton Catlin, Natalie Weizenbaum, Chris Eppstein",
+      "paradigm": "Style sheet preprocessor"
+    },
+    {
+      "index": 74,
+      "name": "Less",
+      "family": "Markup & Style",
+      "path": "langs/074-less/polyglot.less",
+      "bytes": 4096,
+      "year": 2009,
+      "author": "Alexis Sellier",
+      "paradigm": "Style sheet preprocessor"
+    },
+    {
+      "index": 75,
+      "name": "Sass",
+      "family": "Markup & Style",
+      "path": "langs/075-sass/polyglot.sass",
+      "bytes": 4096,
+      "year": 2006,
+      "author": "Hampton Catlin, Natalie Weizenbaum",
+      "paradigm": "Indented style sheet preprocessor"
+    },
+    {
+      "index": 76,
+      "name": "Vue",
+      "family": "Markup & Style",
+      "path": "langs/076-vue/polyglot.vue",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Evan You",
+      "paradigm": "Reactive single-file component"
+    },
+    {
+      "index": 77,
+      "name": "Svelte",
+      "family": "Markup & Style",
+      "path": "langs/077-svelte/polyglot.svelte",
+      "bytes": 4096,
+      "year": 2016,
+      "author": "Rich Harris",
+      "paradigm": "Compiled reactive component"
+    },
+    {
+      "index": 78,
+      "name": "XML",
+      "family": "Markup & Style",
+      "path": "langs/078-xml/polyglot.xml",
+      "bytes": 4096,
+      "year": 1998,
+      "author": "W3C XML Working Group",
+      "paradigm": "Extensible markup, tree-structured data"
+    },
+    {
+      "index": 79,
+      "name": "XSLT",
+      "family": "Markup & Style",
+      "path": "langs/079-xslt/polyglot.xsl",
+      "bytes": 4096,
+      "year": 1998,
+      "author": "James Clark / W3C",
+      "paradigm": "Declarative, template-driven transformation"
+    },
+    {
+      "index": 80,
+      "name": "TeX",
+      "family": "Markup & Style",
+      "path": "langs/080-tex/polyglot.tex",
+      "bytes": 4096,
+      "year": 1978,
+      "author": "Donald Knuth",
+      "paradigm": "Macro expansion, typesetting"
+    },
+    {
+      "index": 81,
+      "name": "Makefile",
+      "family": "Infra & Config",
+      "path": "langs/081-makefile/polyglot.mk",
+      "bytes": 4096,
+      "year": 1976,
+      "author": "Stuart Feldman",
+      "paradigm": "Declarative dependency rules"
+    },
+    {
+      "index": 82,
+      "name": "CMake",
+      "family": "Infra & Config",
+      "path": "langs/082-cmake/polyglot.cmake",
+      "bytes": 4096,
+      "year": 2000,
+      "author": "Bill Hoffman / Kitware",
+      "paradigm": "Declarative build description"
+    },
+    {
+      "index": 83,
+      "name": "Dockerfile",
+      "family": "Infra & Config",
+      "path": "langs/083-dockerfile/polyglot.dockerfile",
+      "bytes": 4096,
+      "year": 2013,
+      "author": "Solomon Hykes / Docker",
+      "paradigm": "Declarative image build"
+    },
+    {
+      "index": 84,
+      "name": "Nix",
+      "family": "Infra & Config",
+      "path": "langs/084-nix/polyglot.nix",
+      "bytes": 4096,
+      "year": 2003,
+      "author": "Eelco Dolstra",
+      "paradigm": "Purely functional, lazy configuration"
+    },
+    {
+      "index": 85,
+      "name": "HCL",
+      "family": "Infra & Config",
+      "path": "langs/085-hcl/polyglot.tf",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Mitchell Hashimoto / HashiCorp",
+      "paradigm": "Declarative configuration"
+    },
+    {
+      "index": 86,
+      "name": "Jsonnet",
+      "family": "Infra & Config",
+      "path": "langs/086-jsonnet/polyglot.jsonnet",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Dave Cunningham / Google",
+      "paradigm": "Functional data templating"
+    },
+    {
+      "index": 87,
+      "name": "YAML",
+      "family": "Infra & Config",
+      "path": "langs/087-yaml/polyglot.yaml",
+      "bytes": 4096,
+      "year": 2001,
+      "author": "Clark Evans, Ingy döt Net, Oren Ben-Kiki",
+      "paradigm": "Declarative data serialisation"
+    },
+    {
+      "index": 88,
+      "name": "TOML",
+      "family": "Infra & Config",
+      "path": "langs/088-toml/polyglot.toml",
+      "bytes": 4096,
+      "year": 2013,
+      "author": "Tom Preston-Werner",
+      "paradigm": "Declarative configuration"
+    },
+    {
+      "index": 89,
+      "name": "Dhall",
+      "family": "Infra & Config",
+      "path": "langs/089-dhall/polyglot.dhall",
+      "bytes": 4096,
+      "year": 2017,
+      "author": "Gabriel Gonzalez",
+      "paradigm": "Total functional configuration"
+    },
+    {
+      "index": 90,
+      "name": "Protocol Buffer",
+      "family": "Infra & Config",
+      "path": "langs/090-protocol-buffer/polyglot.proto",
+      "bytes": 4096,
+      "year": 2008,
+      "author": "Kenton Varda, Sanjay Ghemawat / Google",
+      "paradigm": "Interface definition, binary serialisation"
+    },
+    {
+      "index": 91,
+      "name": "Solidity",
+      "family": "Frontier & Esoteric",
+      "path": "langs/091-solidity/polyglot.sol",
+      "bytes": 4096,
+      "year": 2014,
+      "author": "Gavin Wood, Christian Reitwiessner",
+      "paradigm": "Contract-oriented, statically typed, EVM bytecode"
+    },
+    {
+      "index": 92,
+      "name": "Move",
+      "family": "Frontier & Esoteric",
+      "path": "langs/092-move/polyglot.move",
+      "bytes": 4096,
+      "year": 2019,
+      "author": "Sam Blackshear / Facebook (Libra)",
+      "paradigm": "Resource-oriented, linear types"
+    },
+    {
+      "index": 93,
+      "name": "Cairo",
+      "family": "Frontier & Esoteric",
+      "path": "langs/093-cairo/polyglot.cairo",
+      "bytes": 4096,
+      "year": 2020,
+      "author": "StarkWare",
+      "paradigm": "Provable computation, statically typed"
+    },
+    {
+      "index": 94,
+      "name": "WebAssembly",
+      "family": "Frontier & Esoteric",
+      "path": "langs/094-webassembly/polyglot.wat",
+      "bytes": 4096,
+      "year": 2017,
+      "author": "W3C WebAssembly Community Group",
+      "paradigm": "Stack machine, portable binary format"
+    },
+    {
+      "index": 95,
+      "name": "LLVM",
+      "family": "Frontier & Esoteric",
+      "path": "langs/095-llvm/polyglot.ll",
+      "bytes": 4096,
+      "year": 2003,
+      "author": "Chris Lattner, Vikram Adve",
+      "paradigm": "Static single assignment intermediate representation"
+    },
+    {
+      "index": 96,
+      "name": "GLSL",
+      "family": "Frontier & Esoteric",
+      "path": "langs/096-glsl/polyglot.glsl",
+      "bytes": 4096,
+      "year": 2004,
+      "author": "3Dlabs / OpenGL ARB",
+      "paradigm": "Data-parallel shader, C-like"
+    },
+    {
+      "index": 97,
+      "name": "Verilog",
+      "family": "Frontier & Esoteric",
+      "path": "langs/097-verilog/polyglot.v",
+      "bytes": 4096,
+      "year": 1984,
+      "author": "Phil Moorby / Gateway Design Automation",
+      "paradigm": "Hardware description, event-driven"
+    },
+    {
+      "index": 98,
+      "name": "VHDL",
+      "family": "Frontier & Esoteric",
+      "path": "langs/098-vhdl/polyglot.vhdl",
+      "bytes": 4096,
+      "year": 1983,
+      "author": "US DoD VHSIC program",
+      "paradigm": "Hardware description, strongly typed"
+    },
+    {
+      "index": 99,
+      "name": "Brainfuck",
+      "family": "Frontier & Esoteric",
+      "path": "langs/099-brainfuck/polyglot.bf",
+      "bytes": 4096,
+      "year": 1993,
+      "author": "Urban Müller",
+      "paradigm": "Esoteric, Turing-complete, eight instructions"
+    },
+    {
+      "index": 100,
+      "name": "LOLCODE",
+      "family": "Frontier & Esoteric",
+      "path": "langs/100-lolcode/polyglot.lol",
+      "bytes": 4096,
+      "year": 2007,
+      "author": "Adam Lindsay",
+      "paradigm": "Esoteric, lolcat-inspired"
+    }
+  ]
+}

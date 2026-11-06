@@ -1,0 +1,21 @@
+# Local caches and build leftovers.
+# Note: assets/ballast/ is deliberately tracked -- see docs/LIMITS.md.
+tools/.languages.yml
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Compiled smoke-test artefacts
+*.out
+*.o
+*.mod
+*.class
+a.out
+polyglot
+
+# Editor and OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

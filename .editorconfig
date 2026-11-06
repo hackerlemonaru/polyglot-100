@@ -1,0 +1,25 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# The byte budget depends on LF endings. Do not let an editor rewrite these.
+[langs/**]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+# Make requires literal tabs in recipe lines.
+[*.mk]
+indent_style = tab
+
+[*.{js,ts,json,jsonnet,yaml,yml,css,scss,less,html,xml,xsl,vue,svelte}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

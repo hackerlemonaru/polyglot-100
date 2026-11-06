@@ -1,0 +1,78 @@
+# polyglot-100 :: entry 060 :: GraphQL
+# The canonical payload, expressed as a schema plus an executable query.
+
+type Polyglot {
+  index: Int!
+  language: String!
+  family: String!
+  greeting: String!
+  sumOneToTen: Int!
+  fibTen: Int!
+  checksum: Int!
+}
+
+type Query {
+  polyglot(index: Int! = 60): Polyglot!
+  languages(first: Int! = 100): [Polyglot!]!
+}
+
+schema {
+  query: Query
+}
+
+query CanonicalResult {
+  polyglot(index: 60) {
+    language
+    family
+    greeting
+    sumOneToTen
+    fibTen
+    checksum
+  }
+}
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Data & Sci
+# GraphQL -- entry 060 of 100 in the polyglot-100 archive. Family: Dat

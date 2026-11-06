@@ -1,0 +1,129 @@
+# polyglot-100 -- Linguist control file
+#
+# Two rules make the 1% x 100 split exact:
+#   1. every langs/ file is pinned to one language and forced detectable
+#   2. everything else is excluded from the statistics
+#
+# langs/ is materialised by tools/build.py, but it is deliberately NOT
+# marked linguist-generated: these files are the exhibit, so they must
+# be counted. Byte counts are identical, hence 1.00% each.
+
+* text=auto eol=lf
+
+# ---- exclude the scaffolding from language statistics ----
+README.md            -linguist-detectable
+LICENSE              -linguist-detectable
+CONTRIBUTING.md      -linguist-detectable
+MANIFEST.json        -linguist-detectable
+.gitattributes       -linguist-detectable
+.gitignore           -linguist-detectable
+.editorconfig        -linguist-detectable
+docs/**              -linguist-detectable
+tools/**             -linguist-detectable
+.github/**           -linguist-detectable
+assets/**            -linguist-detectable
+
+# ballast is binary padding: never counted, never diffed
+assets/ballast/*.bin binary
+
+# ---- one pinned language per exhibit ----
+langs/001-c/polyglot.c linguist-language=C linguist-detectable
+langs/002-cplusplus/polyglot.cpp linguist-language=C++ linguist-detectable
+langs/003-rust/polyglot.rs linguist-language=Rust linguist-detectable
+langs/004-go/polyglot.go linguist-language=Go linguist-detectable
+langs/005-zig/polyglot.zig linguist-language=Zig linguist-detectable
+langs/006-nim/polyglot.nim linguist-language=Nim linguist-detectable
+langs/007-d/polyglot.d linguist-language=D linguist-detectable
+langs/008-odin/polyglot.odin linguist-language=Odin linguist-detectable
+langs/009-cuda/polyglot.cu linguist-language=Cuda linguist-detectable
+langs/010-assembly/polyglot.asm linguist-language=Assembly linguist-detectable
+langs/011-java/polyglot.java linguist-language=Java linguist-detectable
+langs/012-csharp/polyglot.cs linguist-language=C# linguist-detectable
+langs/013-kotlin/polyglot.kt linguist-language=Kotlin linguist-detectable
+langs/014-scala/polyglot.scala linguist-language=Scala linguist-detectable
+langs/015-clojure/polyglot.clj linguist-language=Clojure linguist-detectable
+langs/016-fsharp/polyglot.fs linguist-language=F# linguist-detectable
+langs/017-vala/polyglot.vala linguist-language=Vala linguist-detectable
+langs/018-haxe/polyglot.hx linguist-language=Haxe linguist-detectable
+langs/019-apex/polyglot.cls linguist-language=Apex linguist-detectable
+langs/020-swift/polyglot.swift linguist-language=Swift linguist-detectable
+langs/021-javascript/polyglot.js linguist-language=JavaScript linguist-detectable
+langs/022-typescript/polyglot.ts linguist-language=TypeScript linguist-detectable
+langs/023-python/polyglot.py linguist-language=Python linguist-detectable
+langs/024-ruby/polyglot.rb linguist-language=Ruby linguist-detectable
+langs/025-php/polyglot.php linguist-language=PHP linguist-detectable
+langs/026-perl/polyglot.pl linguist-language=Perl linguist-detectable
+langs/027-lua/polyglot.lua linguist-language=Lua linguist-detectable
+langs/028-dart/polyglot.dart linguist-language=Dart linguist-detectable
+langs/029-coffeescript/polyglot.coffee linguist-language=CoffeeScript linguist-detectable
+langs/030-shell/polyglot.sh linguist-language=Shell linguist-detectable
+langs/031-haskell/polyglot.hs linguist-language=Haskell linguist-detectable
+langs/032-ocaml/polyglot.ml linguist-language=OCaml linguist-detectable
+langs/033-standard-ml/polyglot.sml linguist-language=Standard ML linguist-detectable
+langs/034-elm/polyglot.elm linguist-language=Elm linguist-detectable
+langs/035-purescript/polyglot.purs linguist-language=PureScript linguist-detectable
+langs/036-erlang/polyglot.erl linguist-language=Erlang linguist-detectable
+langs/037-elixir/polyglot.ex linguist-language=Elixir linguist-detectable
+langs/038-gleam/polyglot.gleam linguist-language=Gleam linguist-detectable
+langs/039-racket/polyglot.rkt linguist-language=Racket linguist-detectable
+langs/040-scheme/polyglot.scm linguist-language=Scheme linguist-detectable
+langs/041-common-lisp/polyglot.lisp linguist-language=Common Lisp linguist-detectable
+langs/042-emacs-lisp/polyglot.el linguist-language=Emacs Lisp linguist-detectable
+langs/043-fennel/polyglot.fnl linguist-language=Fennel linguist-detectable
+langs/044-janet/polyglot.janet linguist-language=Janet linguist-detectable
+langs/045-io/polyglot.io linguist-language=Io linguist-detectable
+langs/046-wren/polyglot.wren linguist-language=Wren linguist-detectable
+langs/047-red/polyglot.red linguist-language=Red linguist-detectable
+langs/048-smalltalk/polyglot.st linguist-language=Smalltalk linguist-detectable
+langs/049-tcl/polyglot.tcl linguist-language=Tcl linguist-detectable
+langs/050-powershell/polyglot.ps1 linguist-language=PowerShell linguist-detectable
+langs/051-sql/polyglot.sql linguist-language=SQL linguist-detectable
+langs/052-plpgsql/polyglot.pgsql linguist-language=PLpgSQL linguist-detectable
+langs/053-plsql/polyglot.pls linguist-language=PLSQL linguist-detectable
+langs/054-r/polyglot.r linguist-language=R linguist-detectable
+langs/055-julia/polyglot.jl linguist-language=Julia linguist-detectable
+langs/056-matlab/polyglot.matlab linguist-language=MATLAB linguist-detectable
+langs/057-wolfram-language/polyglot.wl linguist-language=Wolfram Language linguist-detectable
+langs/058-sas/polyglot.sas linguist-language=SAS linguist-detectable
+langs/059-stan/polyglot.stan linguist-language=Stan linguist-detectable
+langs/060-graphql/polyglot.graphql linguist-language=GraphQL linguist-detectable
+langs/061-cobol/polyglot.cob linguist-language=COBOL linguist-detectable
+langs/062-fortran-free-form/polyglot.f90 linguist-language=Fortran Free Form linguist-detectable
+langs/063-pascal/polyglot.pas linguist-language=Pascal linguist-detectable
+langs/064-ada/polyglot.adb linguist-language=Ada linguist-detectable
+langs/065-abap/polyglot.abap linguist-language=ABAP linguist-detectable
+langs/066-modula-2/polyglot.mod linguist-language=Modula-2 linguist-detectable
+langs/067-rpgle/polyglot.rpgle linguist-language=RPGLE linguist-detectable
+langs/068-eiffel/polyglot.e linguist-language=Eiffel linguist-detectable
+langs/069-prolog/polyglot.pro linguist-language=Prolog linguist-detectable
+langs/070-batchfile/polyglot.bat linguist-language=Batchfile linguist-detectable
+langs/071-html/polyglot.html linguist-language=HTML linguist-detectable
+langs/072-css/polyglot.css linguist-language=CSS linguist-detectable
+langs/073-scss/polyglot.scss linguist-language=SCSS linguist-detectable
+langs/074-less/polyglot.less linguist-language=Less linguist-detectable
+langs/075-sass/polyglot.sass linguist-language=Sass linguist-detectable
+langs/076-vue/polyglot.vue linguist-language=Vue linguist-detectable
+langs/077-svelte/polyglot.svelte linguist-language=Svelte linguist-detectable
+langs/078-xml/polyglot.xml linguist-language=XML linguist-detectable
+langs/079-xslt/polyglot.xsl linguist-language=XSLT linguist-detectable
+langs/080-tex/polyglot.tex linguist-language=TeX linguist-detectable
+langs/081-makefile/polyglot.mk linguist-language=Makefile linguist-detectable
+langs/082-cmake/polyglot.cmake linguist-language=CMake linguist-detectable
+langs/083-dockerfile/polyglot.dockerfile linguist-language=Dockerfile linguist-detectable
+langs/084-nix/polyglot.nix linguist-language=Nix linguist-detectable
+langs/085-hcl/polyglot.tf linguist-language=HCL linguist-detectable
+langs/086-jsonnet/polyglot.jsonnet linguist-language=Jsonnet linguist-detectable
+langs/087-yaml/polyglot.yaml linguist-language=YAML linguist-detectable
+langs/088-toml/polyglot.toml linguist-language=TOML linguist-detectable
+langs/089-dhall/polyglot.dhall linguist-language=Dhall linguist-detectable
+langs/090-protocol-buffer/polyglot.proto linguist-language=Protocol Buffer linguist-detectable
+langs/091-solidity/polyglot.sol linguist-language=Solidity linguist-detectable
+langs/092-move/polyglot.move linguist-language=Move linguist-detectable
+langs/093-cairo/polyglot.cairo linguist-language=Cairo linguist-detectable
+langs/094-webassembly/polyglot.wat linguist-language=WebAssembly linguist-detectable
+langs/095-llvm/polyglot.ll linguist-language=LLVM linguist-detectable
+langs/096-glsl/polyglot.glsl linguist-language=GLSL linguist-detectable
+langs/097-verilog/polyglot.v linguist-language=Verilog linguist-detectable
+langs/098-vhdl/polyglot.vhdl linguist-language=VHDL linguist-detectable
+langs/099-brainfuck/polyglot.bf linguist-language=Brainfuck linguist-detectable
+langs/100-lolcode/polyglot.lol linguist-language=LOLCODE linguist-detectable

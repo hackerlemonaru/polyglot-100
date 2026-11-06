@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="One hundred languages, one percent each">
+<title>polyglot-100: one hundred languages at exactly 1% each</title>
+<defs><clipPath id="c"><rect width="1200" height="28" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect x="0.000" y="0" width="12.000" height="28" fill="#555555"><title>001 C - 1.00%</title></rect>
+<rect x="12.000" y="0" width="12.000" height="28" fill="#f34b7d"><title>002 C++ - 1.00%</title></rect>
+<rect x="24.000" y="0" width="12.000" height="28" fill="#dea584"><title>003 Rust - 1.00%</title></rect>
+<rect x="36.000" y="0" width="12.000" height="28" fill="#00ADD8"><title>004 Go - 1.00%</title></rect>
+<rect x="48.000" y="0" width="12.000" height="28" fill="#ec915c"><title>005 Zig - 1.00%</title></rect>
+<rect x="60.000" y="0" width="12.000" height="28" fill="#ffc200"><title>006 Nim - 1.00%</title></rect>
+<rect x="72.000" y="0" width="12.000" height="28" fill="#ba595e"><title>007 D - 1.00%</title></rect>
+<rect x="84.000" y="0" width="12.000" height="28" fill="#60AFFE"><title>008 Odin - 1.00%</title></rect>
+<rect x="96.000" y="0" width="12.000" height="28" fill="#3A4E3A"><title>009 Cuda - 1.00%</title></rect>
+<rect x="108.000" y="0" width="12.000" height="28" fill="#6E4C13"><title>010 Assembly - 1.00%</title></rect>
+<rect x="120.000" y="0" width="12.000" height="28" fill="#b07219"><title>011 Java - 1.00%</title></rect>
+<rect x="132.000" y="0" width="12.000" height="28" fill="#7355dd"><title>012 C# - 1.00%</title></rect>
+<rect x="144.000" y="0" width="12.000" height="28" fill="#A97BFF"><title>013 Kotlin - 1.00%</title></rect>
+<rect x="156.000" y="0" width="12.000" height="28" fill="#c22d40"><title>014 Scala - 1.00%</title></rect>
+<rect x="168.000" y="0" width="12.000" height="28" fill="#db5855"><title>015 Clojure - 1.00%</title></rect>
+<rect x="180.000" y="0" width="12.000" height="28" fill="#b845fc"><title>016 F# - 1.00%</title></rect>
+<rect x="192.000" y="0" width="12.000" height="28" fill="#a56de2"><title>017 Vala - 1.00%</title></rect>
+<rect x="204.000" y="0" width="12.000" height="28" fill="#df7900"><title>018 Haxe - 1.00%</title></rect>
+<rect x="216.000" y="0" width="12.000" height="28" fill="#1797c0"><title>019 Apex - 1.00%</title></rect>
+<rect x="228.000" y="0" width="12.000" height="28" fill="#F05138"><title>020 Swift - 1.00%</title></rect>
+<rect x="240.000" y="0" width="12.000" height="28" fill="#f1e05a"><title>021 JavaScript - 1.00%</title></rect>
+<rect x="252.000" y="0" width="12.000" height="28" fill="#3178c6"><title>022 TypeScript - 1.00%</title></rect>
+<rect x="264.000" y="0" width="12.000" height="28" fill="#3572A5"><title>023 Python - 1.00%</title></rect>
+<rect x="276.000" y="0" width="12.000" height="28" fill="#701516"><title>024 Ruby - 1.00%</title></rect>
+<rect x="288.000" y="0" width="12.000" height="28" fill="#4F5D95"><title>025 PHP - 1.00%</title></rect>
+<rect x="300.000" y="0" width="12.000" height="28" fill="#0298c3"><title>026 Perl - 1.00%</title></rect>
+<rect x="312.000" y="0" width="12.000" height="28" fill="#000080"><title>027 Lua - 1.00%</title></rect>
+<rect x="324.000" y="0" width="12.000" height="28" fill="#00B4AB"><title>028 Dart - 1.00%</title></rect>
+<rect x="336.000" y="0" width="12.000" height="28" fill="#244776"><title>029 CoffeeScript - 1.00%</title></rect>
+<rect x="348.000" y="0" width="12.000" height="28" fill="#89e051"><title>030 Shell - 1.00%</title></rect>
+<rect x="360.000" y="0" width="12.000" height="28" fill="#5e5086"><title>031 Haskell - 1.00%</title></rect>
+<rect x="372.000" y="0" width="12.000" height="28" fill="#ef7a08"><title>032 OCaml - 1.00%</title></rect>
+<rect x="384.000" y="0" width="12.000" height="28" fill="#dc566d"><title>033 Standard ML - 1.00%</title></rect>
+<rect x="396.000" y="0" width="12.000" height="28" fill="#60B5CC"><title>034 Elm - 1.00%</title></rect>
+<rect x="408.000" y="0" width="12.000" height="28" fill="#1D222D"><title>035 PureScript - 1.00%</title></rect>
+<rect x="420.000" y="0" width="12.000" height="28" fill="#B83998"><title>036 Erlang - 1.00%</title></rect>
+<rect x="432.000" y="0" width="12.000" height="28" fill="#8847B9"><title>037 Elixir - 1.00%</title></rect>
+<rect x="444.000" y="0" width="12.000" height="28" fill="#ffaff3"><title>038 Gleam - 1.00%</title></rect>
+<rect x="456.000" y="0" width="12.000" height="28" fill="#3c5caa"><title>039 Racket - 1.00%</title></rect>
+<rect x="468.000" y="0" width="12.000" height="28" fill="#1e4aec"><title>040 Scheme - 1.00%</title></rect>
+<rect x="480.000" y="0" width="12.000" height="28" fill="#3fb68b"><title>041 Common Lisp - 1.00%</title></rect>
+<rect x="492.000" y="0" width="12.000" height="28" fill="#c065db"><title>042 Emacs Lisp - 1.00%</title></rect>
+<rect x="504.000" y="0" width="12.000" height="28" fill="#fff3d7"><title>043 Fennel - 1.00%</title></rect>
+<rect x="516.000" y="0" width="12.000" height="28" fill="#0886a5"><title>044 Janet - 1.00%</title></rect>
+<rect x="528.000" y="0" width="12.000" height="28" fill="#a9188d"><title>045 Io - 1.00%</title></rect>
+<rect x="540.000" y="0" width="12.000" height="28" fill="#383838"><title>046 Wren - 1.00%</title></rect>
+<rect x="552.000" y="0" width="12.000" height="28" fill="#f50000"><title>047 Red - 1.00%</title></rect>
+<rect x="564.000" y="0" width="12.000" height="28" fill="#596706"><title>048 Smalltalk - 1.00%</title></rect>
+<rect x="576.000" y="0" width="12.000" height="28" fill="#e4cc98"><title>049 Tcl - 1.00%</title></rect>
+<rect x="588.000" y="0" width="12.000" height="28" fill="#012456"><title>050 PowerShell - 1.00%</title></rect>
+<rect x="600.000" y="0" width="12.000" height="28" fill="#e38c00"><title>051 SQL - 1.00%</title></rect>
+<rect x="612.000" y="0" width="12.000" height="28" fill="#336790"><title>052 PLpgSQL - 1.00%</title></rect>
+<rect x="624.000" y="0" width="12.000" height="28" fill="#dad8d8"><title>053 PLSQL - 1.00%</title></rect>
+<rect x="636.000" y="0" width="12.000" height="28" fill="#198CE7"><title>054 R - 1.00%</title></rect>
+<rect x="648.000" y="0" width="12.000" height="28" fill="#a270ba"><title>055 Julia - 1.00%</title></rect>
+<rect x="660.000" y="0" width="12.000" height="28" fill="#e16737"><title>056 MATLAB - 1.00%</title></rect>
+<rect x="672.000" y="0" width="12.000" height="28" fill="#dd1100"><title>057 Wolfram Language - 1.00%</title></rect>
+<rect x="684.000" y="0" width="12.000" height="28" fill="#B34936"><title>058 SAS - 1.00%</title></rect>
+<rect x="696.000" y="0" width="12.000" height="28" fill="#b2011d"><title>059 Stan - 1.00%</title></rect>
+<rect x="708.000" y="0" width="12.000" height="28" fill="#e10098"><title>060 GraphQL - 1.00%</title></rect>
+<rect x="720.000" y="0" width="12.000" height="28" fill="#5389db"><title>061 COBOL - 1.00%</title></rect>
+<rect x="732.000" y="0" width="12.000" height="28" fill="#4d41b1"><title>062 Fortran Free Form - 1.00%</title></rect>
+<rect x="744.000" y="0" width="12.000" height="28" fill="#E3F171"><title>063 Pascal - 1.00%</title></rect>
+<rect x="756.000" y="0" width="12.000" height="28" fill="#02f88c"><title>064 Ada - 1.00%</title></rect>
+<rect x="768.000" y="0" width="12.000" height="28" fill="#E8274B"><title>065 ABAP - 1.00%</title></rect>
+<rect x="780.000" y="0" width="12.000" height="28" fill="#10253f"><title>066 Modula-2 - 1.00%</title></rect>
+<rect x="792.000" y="0" width="12.000" height="28" fill="#2BDE21"><title>067 RPGLE - 1.00%</title></rect>
+<rect x="804.000" y="0" width="12.000" height="28" fill="#4d6977"><title>068 Eiffel - 1.00%</title></rect>
+<rect x="816.000" y="0" width="12.000" height="28" fill="#74283c"><title>069 Prolog - 1.00%</title></rect>
+<rect x="828.000" y="0" width="12.000" height="28" fill="#C1F12E"><title>070 Batchfile - 1.00%</title></rect>
+<rect x="840.000" y="0" width="12.000" height="28" fill="#e34c26"><title>071 HTML - 1.00%</title></rect>
+<rect x="852.000" y="0" width="12.000" height="28" fill="#663399"><title>072 CSS - 1.00%</title></rect>
+<rect x="864.000" y="0" width="12.000" height="28" fill="#c6538c"><title>073 SCSS - 1.00%</title></rect>
+<rect x="876.000" y="0" width="12.000" height="28" fill="#1d365d"><title>074 Less - 1.00%</title></rect>
+<rect x="888.000" y="0" width="12.000" height="28" fill="#a53b70"><title>075 Sass - 1.00%</title></rect>
+<rect x="900.000" y="0" width="12.000" height="28" fill="#41b883"><title>076 Vue - 1.00%</title></rect>
+<rect x="912.000" y="0" width="12.000" height="28" fill="#ff3e00"><title>077 Svelte - 1.00%</title></rect>
+<rect x="924.000" y="0" width="12.000" height="28" fill="#0060ac"><title>078 XML - 1.00%</title></rect>
+<rect x="936.000" y="0" width="12.000" height="28" fill="#EB8CEB"><title>079 XSLT - 1.00%</title></rect>
+<rect x="948.000" y="0" width="12.000" height="28" fill="#3D6117"><title>080 TeX - 1.00%</title></rect>
+<rect x="960.000" y="0" width="12.000" height="28" fill="#427819"><title>081 Makefile - 1.00%</title></rect>
+<rect x="972.000" y="0" width="12.000" height="28" fill="#DA3434"><title>082 CMake - 1.00%</title></rect>
+<rect x="984.000" y="0" width="12.000" height="28" fill="#384d54"><title>083 Dockerfile - 1.00%</title></rect>
+<rect x="996.000" y="0" width="12.000" height="28" fill="#7e7eff"><title>084 Nix - 1.00%</title></rect>
+<rect x="1008.000" y="0" width="12.000" height="28" fill="#844FBA"><title>085 HCL - 1.00%</title></rect>
+<rect x="1020.000" y="0" width="12.000" height="28" fill="#0064bd"><title>086 Jsonnet - 1.00%</title></rect>
+<rect x="1032.000" y="0" width="12.000" height="28" fill="#cb171e"><title>087 YAML - 1.00%</title></rect>
+<rect x="1044.000" y="0" width="12.000" height="28" fill="#9c4221"><title>088 TOML - 1.00%</title></rect>
+<rect x="1056.000" y="0" width="12.000" height="28" fill="#dfafff"><title>089 Dhall - 1.00%</title></rect>
+<rect x="1068.000" y="0" width="12.000" height="28" fill="#db53ad"><title>090 Protocol Buffer - 1.00%</title></rect>
+<rect x="1080.000" y="0" width="12.000" height="28" fill="#AA6746"><title>091 Solidity - 1.00%</title></rect>
+<rect x="1092.000" y="0" width="12.000" height="28" fill="#4a137a"><title>092 Move - 1.00%</title></rect>
+<rect x="1104.000" y="0" width="12.000" height="28" fill="#ff4a48"><title>093 Cairo - 1.00%</title></rect>
+<rect x="1116.000" y="0" width="12.000" height="28" fill="#04133b"><title>094 WebAssembly - 1.00%</title></rect>
+<rect x="1128.000" y="0" width="12.000" height="28" fill="#185619"><title>095 LLVM - 1.00%</title></rect>
+<rect x="1140.000" y="0" width="12.000" height="28" fill="#5686a5"><title>096 GLSL - 1.00%</title></rect>
+<rect x="1152.000" y="0" width="12.000" height="28" fill="#b2b7f8"><title>097 Verilog - 1.00%</title></rect>
+<rect x="1164.000" y="0" width="12.000" height="28" fill="#adb2cb"><title>098 VHDL - 1.00%</title></rect>
+<rect x="1176.000" y="0" width="12.000" height="28" fill="#2F2530"><title>099 Brainfuck - 1.00%</title></rect>
+<rect x="1188.000" y="0" width="12.000" height="28" fill="#cc9900"><title>100 LOLCODE - 1.00%</title></rect>
+</g></svg>

@@ -1,0 +1,79 @@
+// polyglot-100 :: entry 090 :: Protocol Buffers (proto3)
+syntax = "proto3";
+
+package polyglot.v1;
+
+option go_package = "github.com/hackerlemonaru/polyglot-100/gen/go/polyglotv1";
+
+message CanonicalTask {
+  string greeting = 1;
+  int64 sum_one_to_ten = 2;
+  int64 fib_ten = 3;
+  int64 checksum = 4;
+}
+
+message Entry {
+  uint32 index = 1;
+  string language = 2;
+  string family = 3;
+  uint32 bytes = 4;
+  double share_percent = 5;
+  uint32 first_appeared = 6;
+}
+
+message Archive {
+  uint32 entries = 1;
+  uint32 bytes_per_entry = 2;
+  repeated Entry exhibits = 3;
+  CanonicalTask task = 4;
+}
+
+service ArchiveService {
+  rpc GetEntry(GetEntryRequest) returns (Entry);
+  rpc ListEntries(ListEntriesRequest) returns (Archive);
+}
+
+message GetEntryRequest { uint32 index = 1; }
+message ListEntriesRequest { uint32 page_size = 1; }
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Family: I
+// Protocol Buffer -- entry 090 of 100 in the polyglot-100 archive. Fami

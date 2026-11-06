@@ -1,0 +1,75 @@
+/* polyglot-100 :: entry 072 :: CSS */
+:root {
+  --entries: 100;
+  --share: calc(100% / var(--entries));
+  --checksum: 55;
+  --ink: oklch(22% 0.02 260);
+  --paper: oklch(98% 0.01 90);
+}
+
+.language-bar {
+  display: grid;
+  grid-template-columns: repeat(var(--entries), var(--share));
+  block-size: 0.75rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.language-bar > span {
+  inline-size: var(--share);
+  background: hsl(calc(var(--i) * 3.6) 70% 55%);
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: ui-monospace, monospace;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .language-bar > span { transition: inline-size 200ms ease; }
+}
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Markup & S */
+/* CSS -- entry 072 of 100 in the polyglot-100 archive. Family: Mark */

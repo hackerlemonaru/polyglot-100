@@ -1,0 +1,78 @@
+// polyglot-100 :: entry 073 :: SCSS
+$entries: 100;
+$share: calc(100% / $entries);
+$checksum: 55;
+
+@mixin swatch($index) {
+  background: hsl($index * 3.6, 70%, 55%);
+  inline-size: $share;
+}
+
+.language-bar {
+  display: flex;
+  block-size: 0.75rem;
+
+  @for $i from 1 through $entries {
+    > span:nth-child(#{$i}) {
+      @include swatch($i);
+    }
+  }
+}
+
+.checksum::after {
+  content: "#{$checksum}";
+  font-variant-numeric: tabular-nums;
+}
+
+%visually-hidden {
+  position: absolute;
+  clip-path: inset(50%);
+}
+
+.sr-only { @extend %visually-hidden; }
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the polyglot-100 archive. Family: Markup & Sty
+// SCSS -- entry 073 of 100 in the 

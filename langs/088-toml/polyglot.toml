@@ -1,0 +1,79 @@
+# polyglot-100 :: entry 088 :: TOML
+title = "polyglot-100"
+concept = "100 languages at exactly 1% each"
+entries = 100
+bytes_per_entry = 4_096
+counted_bytes = 409_600
+created = 2026-11-06T00:00:00Z
+
+[canonical_task]
+greeting = "Hello from TOML!"
+sum_one_to_ten = 55
+fib_ten = 55
+checksum = 0
+
+[self_entry]
+index = 88
+language = "TOML"
+family = "Infra & Config"
+first_appeared = 2013
+share_percent = 1.00
+
+[[family]]
+id = 1
+name = "Systems & Native"
+count = 10
+
+[[family]]
+id = 9
+name = "Infra & Config"
+count = 10
+
+[metadata.limits]
+per_file_hard_block_mib = 100
+recommended_repo_gb = 1
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi
+# TOML -- entry 088 of 100 in the polyglot-100 archive. Family: Infra & Confi

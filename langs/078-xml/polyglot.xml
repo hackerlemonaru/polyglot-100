@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- polyglot-100 :: entry 078 :: XML -->
+<archive name="polyglot-100" entries="100" bytesPerEntry="4096">
+  <canonicalTask>
+    <greeting>Hello from XML!</greeting>
+    <operation id="sum" from="1" to="10">55</operation>
+    <operation id="fib" index="10">55</operation>
+    <checksum equal="true">0</checksum>
+  </canonicalTask>
+  <entry index="78" family="Markup &amp; Style">
+    <language firstAppeared="1998">XML</language>
+    <share unit="percent">1.00</share>
+  </entry>
+  <namespaces>
+    <namespace prefix="pg" uri="urn:polyglot-100:entry" />
+  </namespaces>
+</archive>
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the polyglot-100 archive. Family: Markup  -->
+<!-- XML -- entry 078 of 100 in the pol -->
